@@ -1,0 +1,52 @@
+/* grid c2 */
+.grid-c2 .grid-item {
+  background: linear-gradient(
+      114.07deg,
+      rgba(66, 59, 55, 0.6) 3.49%,
+      rgba(66, 59, 55, 0) 34.7%
+    ),
+    linear-gradient(138.58deg, rgba(59, 43, 30, 0.37) 43.56%, #fea767 112.68%);
+  display: flex;
+}
+.grid-c2 .grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.grid-c2 .grid-item:last-child {
+  margin-bottom: 0;
+}
+.grid-c2 .grid-item p {
+  color: var(--clr-silver-v1);
+}
+.grid-c2 .grid-item-l .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.grid-c2 .grid-item-l {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.grid-c2 .grid-item-l .text {
+  font-weight: 600;
+}
+.grid-c2 .grid-item-l span {
+  display: block;
+  font-weight: 400;
+  margin-top: 4px;
+  font-size: 15px;
+  color: #8a8587;
+}
+.grid-c2 .grid-item-r span {
+  font-weight: 500;
+}
+
+.grid-c-title-text{
+  color: rgb(211, 125, 125);
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif ;
+}
